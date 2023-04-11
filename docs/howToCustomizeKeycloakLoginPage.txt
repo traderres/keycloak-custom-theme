@@ -18,7 +18,7 @@ Procedure
 ---------
  1. Clone the keycloak-custom-theme project from my github site
     -- The built-in themes are found in this JAR:  $KEYCLOAK_HOME/lib/lib/main/org.keycloak.keycloak-themes-21.0.1.jar
-    unix> git clone
+    unix> git clone https://github.com/traderres/keycloak-custom-theme.git
     unix> cd keycloak-custom-theme
 
  2. Build the custom theme jar
