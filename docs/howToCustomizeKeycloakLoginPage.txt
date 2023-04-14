@@ -35,9 +35,10 @@ Procedure
     unix> cd $KEYCLOAK_HOME
     unix> bin/kc.sh build
 
- 6. Startup keycloak             (requires Java 11 or later)
+ 6. Startup keycloak without CACHING            (requires Java 11 or later)
+    NOTE:  Add these options   --spi-theme-cache-themes=false --spi-theme-cache-templates=false
     unix> cd $KEYCLOAK_HOME
-    unix> bin/kc.sh start --http-enabled=false --https-port=8444 --https-key-store-file=/home/adam/intellijProjects/sf328/sf328-backend/src/main/prod_resources/localhost.localdomain.keystore.jks --https-key-store-type=JKS --https-key-store-password=changeit --https-trust-store-file=/home/adam/intellijProjects/sf328/sf328-backend/src/main/prod_resources/localhost.localdomain.truststore.jks --https-trust-store-type=JKS  --https-trust-store-password=changeit --https-client-auth=request  --log-level=INFO --hostname-strict-https=false --hostname-strict=false --hostname=localhost.localdomain
+    unix> bin/kc.sh start --spi-theme-cache-themes=false --spi-theme-cache-templates=false  text-center--http-enabled=false --https-port=8444 --https-key-store-file=/home/adam/intellijProjects/sf328/sf328-backend/src/main/prod_resources/localhost.localdomain.keystore.jks --https-key-store-type=JKS --https-key-store-password=changeit --https-trust-store-file=/home/adam/intellijProjects/sf328/sf328-backend/src/main/prod_resources/localhost.localdomain.truststore.jks --https-trust-store-type=JKS  --https-trust-store-password=changeit --https-client-auth=request  --log-level=INFO --hostname-strict-https=false --hostname-strict=false --hostname=localhost.localdomain
 
  7. Tell Keycloak to use your new theme
     a. Go to https://localhost.localdomain:8444

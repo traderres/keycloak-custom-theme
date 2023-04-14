@@ -1,0 +1,18 @@
+
+
+/*.login-pf body {*/
+/*    !* Replace the default image "../img/keycloak-bg.png" with our image  *!*/
+/*    background: url("../img/background-image.jpg") no-repeat center center fixed;*/
+/*    background-size: auto;*/
+/*    background-size: cover;*/
+/*    height: 100%;*/
+/*}*/
+
+
+.login-pf body {
+    /* Update 3 */
+    background: url("../img/keycloak-background-image.png") no-repeat center center fixed;
+    background-size: auto;
+    background-size: cover;
+    height: 100%;
+}

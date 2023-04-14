@@ -40,16 +40,14 @@
                     </div>
                 </div>
 
-                <div>
-                        <h3>hi there</h3>
-                </div>
 
                 <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
                     <div class="${properties.kcFormButtonsWrapperClass!}">
-                        <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" name="login" id="kc-login" type="submit" value="${msg("doContinue")}"/>
-                        <#if x509.formData.isUserEnabled??>
-                            <input class="${properties.kcButtonClass!} ${properties.kcButtonDefaultClass!} ${properties.kcButtonLargeClass!}" name="cancel" id="kc-cancel" type="submit" value="${msg("doIgnore")}"/>
-                        </#if>
+
+                        <!-- Continue to Webapp Button -->
+                        <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}"
+                                name="login" id="kc-login" type="submit" value="${msg("doContinue")}"/>
+
                     </div>
                 </div>
             </div>
