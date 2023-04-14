@@ -8,11 +8,22 @@
 /*    height: 100%;*/
 /*}*/
 
-
 .login-pf body {
-    /* Update 3 */
-    background: url("../img/keycloak-background-image.png") no-repeat center center fixed;
-    background-size: auto;
-    background-size: cover;
-    height: 100%;
+    /* Set the login background to be a gradient */
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0c160d+0,0c160d+13,316e31+50,0c160d+87,0c160d+100 */
+    background: #0c160d; /* Old browsers */
+    background: -moz-linear-gradient(left,  #0c160d 0%, #0c160d 13%, #316e31 50%, #0c160d 87%, #0c160d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #0c160d 0%,#0c160d 13%,#316e31 50%,#0c160d 87%,#0c160d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #0c160d 0%,#0c160d 13%,#316e31 50%,#0c160d 87%,#0c160d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c160d', endColorstr='#0c160d',GradientType=1 ); /* IE6-9 */
 }
+
+
+/*.login-pf body {*/
+/*    !* Update 3 *!*/
+/*    background: url("../img/keycloak-background-image.png") no-repeat center center fixed;*/
+/*    background-size: auto;*/
+/*    background-size: cover;*/
+/*    height: 100%;*/
+/*}*/
